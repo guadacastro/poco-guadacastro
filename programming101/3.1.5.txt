@@ -1,0 +1,33 @@
+Ex. 3.1.5 (*)
+Combine Ex. 3.1.2 and 3.1.4 into one program.
+The program should ask the user if they want to add or subtract two numbers. Then the program should ask
+for the two numbers and print the result.
+
+
+- first we ask if we want to add(input = 0) or substract( input = 1)
+- then we ask to input 2 numbers.
+- we check if they are actually numbers
+
+input = input 0 if you want to add or 1 if you want to substract the numbers
+num1 = input number 1
+num2 = input number 2
+
+total= 0
+
+IF ((num1 is not an int) OR (num2 is not and int))
+    PRINT These are not numbers. Please input again.
+    num1 = input number 1
+    num2 = input number 2
+
+# substract
+IF (input == 1) :
+    IF (num1 IS GREATER OR EQUAL num2):
+        total = num1 - num2
+
+    ELSE (num2 IS GREATER THAN num1):
+        total = num2 - num1
+
+ELSE IF (input == 0 )
+    total = num1 + num 2
+
+print => The answer is, total

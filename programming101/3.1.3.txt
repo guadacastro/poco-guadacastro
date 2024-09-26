@@ -1,0 +1,24 @@
+Ex. 3.1.3 (*) - Which number is bigger? ca. 15 min
+Declare 2 variables, both numbers. Compare which number is greater Log the output, 
+e.g. "The greater number
+of 5 and 10 is 10." Add an output for the else statement, 
+e.g. "The smaller number of 5 and 10 is 5."
+
+
+- create 2 variables for the numbers
+- add a conditional to check which number is bigger and also check if the are equal
+- depending on each condition, we need to print which number is greater, smaller or equal
+
+num1 = input('Input number A:')
+num2 = input('Input number B:')
+
+IF (num1 IS GREATER THAN num2):
+
+    PRINT => num1 is greater than num2
+
+ELSE IF (num2 IS GREATER THAN num1): 
+
+    PRINT => num2 is greater than num1
+
+ELSE
+    PRINT => num1 & num2 are the same number

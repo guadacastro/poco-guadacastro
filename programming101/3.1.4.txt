@@ -1,0 +1,21 @@
+Ex. 3.1.4 (*) - Subtract numbers 
+Allow the user to input numbers, subtract the smaller from the bigger number and print the result.
+
+- first we add the variables num1 and num2 and the variable for the answer (total)
+- on each variable we put an input so the user can input the numbers.
+- check which number is smaller so we know which number we need to substract
+- when we know that, we make the subtract in the total variable
+- then we print the final answer (total)
+
+
+num1 = input number 1
+num2 = input number 2
+
+total = 0
+
+IF (num1 IS GREATER OR EQUAL num2):
+    total = num1 - num2
+ELSE (num2 IS GREATER THAN num1):
+    total = num2 - num1
+
+PRINT => The answer is: total

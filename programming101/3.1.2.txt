@@ -1,0 +1,10 @@
+Ex. 3.1.2 (*) - Add numbers ca. 30 min
+Allow the user to input numbers, add them and print the result.
+
+- initialize a variable named 'number'
+- inside this variable, put a input with a message to put any number.
+- Then print the variable number
+
+
+number = input('Input any number : )
+print(number)

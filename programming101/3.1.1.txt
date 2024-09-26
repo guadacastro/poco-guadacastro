@@ -1,0 +1,9 @@
+Ex. 3.1.1 (*) - Print greeting
+Create a program that prompts for your name and prints a greeting using your name.
+- Initialize a variable named 'name' so we can save it.
+- print the message with the variable name
+
+
+name = 'Guada'
+print('Hello ', name)
+
