@@ -1,47 +1,42 @@
-// Ex. 4.2.7 (**) - Password validator
-// a) Write a program that asks the user for a password and checks if it is valid. The password must
-// • at least be 8 characters long
-// • include 1 special symbol
-// • include 1 number
-// • not include a space or either
-// b) Write a program that generates a password according to the requirements above. Use your validator
-// written in a).
+let password;
 
-// a)
+//makes the user prompt the password again until there is a valid password.
+do {
+    password = prompt('[?] Enter a password: ');
+    console.log(validatePassword (password) ? '[+] Password is valid!' : '[!] Password is invalid, enter again');
+} while (!validatePassword(password)); 
 
-let password = '12!45678';
 
+//validates if the password is valid
 function validatePassword(password) {
     let specialSymbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+', '='];
     let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     let specialSymbolCount = 0;
     let numberCount = 0;
 
-    if (password.length < 8) {
+    if (password.length <= 8) {
+        console.log('[!] Password must be at least 8 characters long');
         return false;
     }
 
-    for (const char of password) {
+    for (let char of password) {
         if (specialSymbols.includes(char)) {
             specialSymbolCount++;
-        }
+        } 
         if (numbers.includes(char)) {
             numberCount++;
         }
         if (char === ' ' || char === '\t') {
+            console.log('[!] Password cannot contain spaces or tabs');
             return false;
         }
     }
 
     if (specialSymbolCount < 1 || numberCount < 1) {
+        console.log('[!] Password must contain at least one number and one special symbol');
         return false;
     }
 
     return true;
 }
 
-if (validatePassword(password)) {
-    console.log('Password is valid');
-} else {
-    console.log('Password is invalid');
-}

@@ -7,7 +7,9 @@ const employees = [
     {name: 'Jane', age: 25, department: 'IT'},
     {name: 'Jim', age: 22, department: 'HR'},
     {name: 'Jack', age: 26, department: 'IT'},
-    {name: 'Jill', age: 35, department: 'HR'}
+    {name: 'Jill', age: 35, department: 'HR'},
+    {name: 'Joe', age: 28, department: 'IT'},
+    {name: 'Jenny', age: 33, department: 'HR'}
 ];
 
 function filterEmployeesByDepartment(employees) {
