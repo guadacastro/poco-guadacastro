@@ -15,6 +15,12 @@ class Person {
 }
 
 let person = new Person('John', 'Doe');
+
+console.log('[+] FullName: ' + person.fullName());
+
+
+
+
 let courses = [
     {courseName: 'Math', grade: 95},
     {courseName: 'Science', grade: 85},
