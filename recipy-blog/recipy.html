@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipy Blog</title>
+    <link rel="stylesheet" href="./recipy.css">
 </head>
 <body>
-    <header>
+    <header class="box">
         <section>
             <a href="#"><img src="./assets/chef.png" alt="logo" width="80px"></a>
         </section>
@@ -15,156 +16,173 @@
             <a href="./about.html">About us</a>
         </nav>
     </header>
-    <main>
-        <h1>Today's Top Recipes!</h1>
-        <section>
-            <h1>Banana Bread</h1>
-            <img src="./assets/banana-bread/banana-bread-1.jpg" alt="Banana Bread image" width="300px">
-            <div>
-                <h2>General Information</h2>
-                <ul>
-                    <li itemprop="prepTime" content="PT15M">Prep Time: 15 mins</li>
-                    <li itemprop="cookTime" content="PT1H">Cook Time: 1 hour</li>
-                    <li itemprop="totalTime" content="PT1H15M">Total Time: 1hr 15min</li>
-                    <li>Servings: 15</li>
-                </ul>
-                <h2>Nutrition Facts (per serving)</h2>
-                <ul itemprop="nutrition">
-                    <li itemprop="calories">231 Calories</li>
-                    <li itemprop="fatContent">9g Fat</li>
-                    <li itemprop="carbohydrateContent">35g Carbs</li>
-                    <li itemprop="proteinContent">4g Protein</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Ingredients:</h2>
-                <ul>
-                    <li itemprop="recipeIngredient" > 2 cups all-purpose flour</li>
-                    <li itemprop="recipeIngredient">1 teaspoon baking soda</li>
-                    <li itemprop="recipeIngredient">¼ teaspoon salt</li>
-                    <li itemprop="recipeIngredient">¾ cup brown sugar</li>
-                    <li itemprop="recipeIngredient">½ cup butter</li>
-                    <li itemprop="recipeIngredient">2 large eggs, beaten</li>
-                    <li itemprop="recipeIngredient">2 ⅓ cups mashed overripe bananas</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Step by step:</h2>
+    <main class="">
+        <h1 class="title-1">Today's Top Recipes</h1>
+        <div>
+            <section class="recipe">
+                <h1>Banana Bread</h1>
+                <img src="./assets/banana-bread/banana-bread-1.jpg" alt="Banana Bread image" width="300px">
                 <div>
-                    <h3>Step 1</h3>
-                    <p itemprop="step">Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a 9x5-inch loaf pan.</p>
+                    <h2>General Information</h2>
+                    <ul>
+                        <li itemprop="prepTime" content="PT15M">Prep Time: 15 mins</li>
+                        <li itemprop="cookTime" content="PT1H">Cook Time: 1 hour</li>
+                        <li itemprop="totalTime" content="PT1H15M">Total Time: 1hr 15min</li>
+                        <li>Servings: 15</li>
+                    </ul>
+                    <h2>Nutrition Facts (per serving)</h2>
+                    <ul itemprop="nutrition">
+                        <li itemprop="calories">231 Calories</li>
+                        <li itemprop="fatContent">9g Fat</li>
+                        <li itemprop="carbohydrateContent">35g Carbs</li>
+                        <li itemprop="proteinContent">4g Protein</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3>Step 2</h3>
-                    <p itemprop="step">
-                        Combine flour, baking soda, and salt in a large bowl. Beat brown sugar and butter
-                         with an electric mixer in a separate large bowl until smooth. Stir in eggs
-                        and mashed bananas until well blended. Stir banana mixture into flour mixture
-                         until just combined. Pour batter into the prepared loaf pan.
-                    </p>
+                    <h2>Ingredients:</h2>
+                    <ul>
+                        <li itemprop="recipeIngredient" > 2 cups all-purpose flour</li>
+                        <li itemprop="recipeIngredient">1 teaspoon baking soda</li>
+                        <li itemprop="recipeIngredient">¼ teaspoon salt</li>
+                        <li itemprop="recipeIngredient">¾ cup brown sugar</li>
+                        <li itemprop="recipeIngredient">½ cup butter</li>
+                        <li itemprop="recipeIngredient">2 large eggs, beaten</li>
+                        <li itemprop="recipeIngredient">2 ⅓ cups mashed overripe bananas</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3>Step 3</h3>
-                    <p itemprop="step">
-                        Bake in the preheated oven until a toothpick inserted into the center
-                         comes out clean, about 60 minutes. Let bread cool in pan for 10 minutes, 
-                         then turn out onto a wire rack to cool completely.
-                    </p>
+                    <h2>Step by step:</h2>
+                    <div>
+                        <h3>Step 1</h3>
+                        <p itemprop="step">Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a 9x5-inch loaf pan.</p>
+                    </div>
+                    <div>
+                        <h3>Step 2</h3>
+                        <p itemprop="step">
+                            Combine flour, baking soda, and salt in a large bowl. Beat brown sugar and butter
+                             with an electric mixer in a separate large bowl until smooth. Stir in eggs
+                            and mashed bananas until well blended. Stir banana mixture into flour mixture
+                             until just combined. Pour batter into the prepared loaf pan.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Step 3</h3>
+                        <p itemprop="step">
+                            Bake in the preheated oven until a toothpick inserted into the center
+                             comes out clean, about 60 minutes. Let bread cool in pan for 10 minutes, 
+                             then turn out onto a wire rack to cool completely.
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <h1>Blackberry Cheesecake Brownies</h1>
-            <img src="./assets/brownie/brownie.webp" alt="Banana Bread image" width="300px">
-            <div>
-                <h2>General Information</h2>
-                <ul>
-                    <li itemprop="prepTime" content="PT25M">Prep Time: 25 mins</li>
-                    <li itemprop="cookTime" content="PT1H10M">Cook Time: 1hr 10min</li>
-                    <li>Cool Time: 50min</li>
-                    <li itemprop="totalTime" content="PT6H25M">Total Time: 6hr 25min</li>
-                    <li itemprop="recipeYield">Servings: 15</li>
-                </ul>
-                <h2>Nutrition Facts (per serving)</h2>
-                <ul itemprop="nutrition">
-                    <li itemprop="calories">260 Calories</li>
-                    <li itemprop="fatContent">16g Fat</li>
-                    <li itemprop="carbohydrateContent">26g Carbs</li>
-                    <li itemprop="proteinContent">4g Protein</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Ingredients:</h2>
-                <h3>Blackberry Sauce</h3>
-                <ul>
-                    <li itemprop="recipeIngredient">1 1/2 cups frozen blackberries</li>
-                    <li itemprop="recipeIngredient">1/4 cup white sugar, or to taste</li>
-                    <li itemprop="recipeIngredient">1 tablespoon fresh lemon juice</li>
-                    <li itemprop="recipeIngredient">1/4 teaspoon freshly grated lemon zest, or to taste</li>
-                    <li itemprop="recipeIngredient">1 teaspoon cornstarch</li>
-                    <li itemprop="recipeIngredient">1 tablespoon water</li>
-                </ul>
-                <h3>Brownie Layer</h3>
-                <ul>
-                    <li itemprop="recipeIngredient">1/2 cup unsalted butter, melted</li>
-                    <li itemprop="recipeIngredient">1 cup firmly packed light brown sugar</li>
-                    <li itemprop="recipeIngredient">1/2 teaspoon salt</li>
-                    <li itemprop="recipeIngredient">1 large egg, at room temperature</li>
-                    <li itemprop="recipeIngredient">1 large egg yolk, at room temperature</li>
-                    <li itemprop="recipeIngredient">1/2 cup unsweetened cocoa powder</li>
-                    <li itemprop="recipeIngredient">1/2 cup all-purpose flour</li>
-                    <li itemprop="recipeIngredient">1/4 teaspoon baking soda</li>
-                </ul>
-                <h3>Cheesecake Layer</h3>
-                <ul>
-                    <li itemprop="recipeIngredient">8 ounces full fat cream cheese, at room temperature</li>
-                    <li itemprop="recipeIngredient">1/3 cup white sugar</li>
-                    <li itemprop="recipeIngredient">1 pinch salt</li>
-                    <li itemprop="recipeIngredient">1 pinch ground nutmeg</li>
-                    <li itemprop="recipeIngredient">1 large egg white, at room temperature</li>
-                    <li itemprop="recipeIngredient">2 teaspoons fresh lemon juice</li>
-                    <li itemprop="recipeIngredient">1 teaspoon vanilla extractr</li>
-                    <li itemprop="recipeIngredient">3/4 cup heavy whipping cream, at room temperature</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Step by step:</h2>
+            </section>
+            <section>
+                <h1>Blackberry Cheesecake Brownies</h1>
+                <img src="./assets/brownie/brownie.webp" alt="Banana Bread image" width="300px">
                 <div>
-                    <h3>Step 1</h3>
-                    <p itemprop="step">
-                        For blackberry sauce, combine frozen blackberries, sugar, lemon juice, and lemon zest in a small saucepan set over medium-low heat. Cook, stirring often, until berries fall apart, 8 to 10 minutes. Remove mixture from heat, and pour into a fine mesh sieve set over a bowl. Use the back of a wooden spoon or spatula to press berry mixture through the sieve, extracting as much juice as possible. Discard seeds. Pour sauce back into saucepan and bring to a simmer over low heat.
-                    </p>
+                    <h2>General Information</h2>
+                    <ul>
+                        <li itemprop="prepTime" content="PT25M">Prep Time: 25 mins</li>
+                        <li itemprop="cookTime" content="PT1H10M">Cook Time: 1hr 10min</li>
+                        <li>Cool Time: 50min</li>
+                        <li itemprop="totalTime" content="PT6H25M">Total Time: 6hr 25min</li>
+                        <li itemprop="recipeYield">Servings: 15</li>
+                    </ul>
+                    <h2>Nutrition Facts (per serving)</h2>
+                    <ul itemprop="nutrition">
+                        <li itemprop="calories">260 Calories</li>
+                        <li itemprop="fatContent">16g Fat</li>
+                        <li itemprop="carbohydrateContent">26g Carbs</li>
+                        <li itemprop="proteinContent">4g Protein</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3>Step 2</h3>
-                    <p itemprop="step">
-                        Stir cornstarch and water together in a small bowl until thoroughly combined; stir cornstarch slurry into blackberry sauce and continue to cook, stirring constantly, until slightly thickened, 1 to 2 minutes. Remove from heat, and allow blackberry sauce to cool completely, about 20 minutes. The sauce can be refrigerated to speed up cooling.
-                    </p>
+                    <h2>Ingredients:</h2>
+                    <h3>Blackberry Sauce</h3>
+                    <ul>
+                        <li itemprop="recipeIngredient">1 1/2 cups frozen blackberries</li>
+                        <li itemprop="recipeIngredient">1/4 cup white sugar, or to taste</li>
+                        <li itemprop="recipeIngredient">1 tablespoon fresh lemon juice</li>
+                        <li itemprop="recipeIngredient">1/4 teaspoon freshly grated lemon zest, or to taste</li>
+                        <li itemprop="recipeIngredient">1 teaspoon cornstarch</li>
+                        <li itemprop="recipeIngredient">1 tablespoon water</li>
+                    </ul>
+                    <h3>Brownie Layer</h3>
+                    <ul>
+                        <li itemprop="recipeIngredient">1/2 cup unsalted butter, melted</li>
+                        <li itemprop="recipeIngredient">1 cup firmly packed light brown sugar</li>
+                        <li itemprop="recipeIngredient">1/2 teaspoon salt</li>
+                        <li itemprop="recipeIngredient">1 large egg, at room temperature</li>
+                        <li itemprop="recipeIngredient">1 large egg yolk, at room temperature</li>
+                        <li itemprop="recipeIngredient">1/2 cup unsweetened cocoa powder</li>
+                        <li itemprop="recipeIngredient">1/2 cup all-purpose flour</li>
+                        <li itemprop="recipeIngredient">1/4 teaspoon baking soda</li>
+                    </ul>
+                    <h3>Cheesecake Layer</h3>
+                    <ul>
+                        <li itemprop="recipeIngredient">8 ounces full fat cream cheese, at room temperature</li>
+                        <li itemprop="recipeIngredient">1/3 cup white sugar</li>
+                        <li itemprop="recipeIngredient">1 pinch salt</li>
+                        <li itemprop="recipeIngredient">1 pinch ground nutmeg</li>
+                        <li itemprop="recipeIngredient">1 large egg white, at room temperature</li>
+                        <li itemprop="recipeIngredient">2 teaspoons fresh lemon juice</li>
+                        <li itemprop="recipeIngredient">1 teaspoon vanilla extractr</li>
+                        <li itemprop="recipeIngredient">3/4 cup heavy whipping cream, at room temperature</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3>Step 3</h3>
-                    <p itemprop="step">
-                        Preheat the oven to 350 degrees F (175 degrees C). Line an 8x8-inch square pan with enough parchment paper to have overhang on all sides.
-                    </p>
+                    <h2>Step by step:</h2>
+                    <div>
+                        <h3>Step 1</h3>
+                        <p itemprop="step">
+                            For blackberry sauce, combine frozen blackberries, sugar, lemon juice, and lemon zest in a small saucepan set over medium-low heat. Cook, stirring often, until berries fall apart, 8 to 10 minutes. Remove mixture from heat, and pour into a fine mesh sieve set over a bowl. Use the back of a wooden spoon or spatula to press berry mixture through the sieve, extracting as much juice as possible. Discard seeds. Pour sauce back into saucepan and bring to a simmer over low heat.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Step 2</h3>
+                        <p itemprop="step">
+                            Stir cornstarch and water together in a small bowl until thoroughly combined; stir cornstarch slurry into blackberry sauce and continue to cook, stirring constantly, until slightly thickened, 1 to 2 minutes. Remove from heat, and allow blackberry sauce to cool completely, about 20 minutes. The sauce can be refrigerated to speed up cooling.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Step 3</h3>
+                        <p itemprop="step">
+                            Preheat the oven to 350 degrees F (175 degrees C). Line an 8x8-inch square pan with enough parchment paper to have overhang on all sides.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Step 4</h3>
+                        <p itemprop="step">Prepare brownie layer: whisk melted butter, brown sugar, and salt together in a large bowl until thoroughly combined. Whisk in egg, egg yolk, and vanilla until thoroughly incorporated. Add in cocoa powder, flour, and baking soda and stir until just combined. Batter will be somewhat thick. Spread brownie batter into the prepared pan in a smooth, even layer.</p>
+                    </div>
+                    <div>
+                        <h3>Step 5</h3>
+                        <p itemprop="step">Prepare cheesecake layer: Beat cream cheese, white sugar, salt, and nutmeg together in a bowl with an electric mixer until smooth and creamy. Add in egg white, lemon juice, and vanilla and mix until thoroughly incorporated. Pour in heavy cream and mix until combined. Pour cheesecake layer over brownie layer and smooth into an even layer.</p>
+                    </div>
+                    <div>
+                        <h3>Step 6</h3>
+                        <p itemprop="step">Place dollops of the cooled blackberry sauce over the cheesecake layer. Use a knife to swirl only the cheesecake layer and blackberry sauce together; taking care not to go into the brownie layer. Swirl as many or as few times as needed to get the desired marbled effect.</p>
+                    </div>
+                    <div>
+                        <h3>Step 7</h3>
+                        <p itemprop="step">Bake in the preheated oven until the center of the bars are puffed and mostly set, 55 to 60 minutes. The edges will bake up taller than the center, and will begin to turn golden brown when they are done. Allow bars to cool to room temperature in the pan, then refrigerate for at least 4 hours to overnight. Cut into 16 bars before serving.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Step 4</h3>
-                    <p itemprop="step">Prepare brownie layer: whisk melted butter, brown sugar, and salt together in a large bowl until thoroughly combined. Whisk in egg, egg yolk, and vanilla until thoroughly incorporated. Add in cocoa powder, flour, and baking soda and stir until just combined. Batter will be somewhat thick. Spread brownie batter into the prepared pan in a smooth, even layer.</p>
-                </div>
-                <div>
-                    <h3>Step 5</h3>
-                    <p itemprop="step">Prepare cheesecake layer: Beat cream cheese, white sugar, salt, and nutmeg together in a bowl with an electric mixer until smooth and creamy. Add in egg white, lemon juice, and vanilla and mix until thoroughly incorporated. Pour in heavy cream and mix until combined. Pour cheesecake layer over brownie layer and smooth into an even layer.</p>
-                </div>
-                <div>
-                    <h3>Step 6</h3>
-                    <p itemprop="step">Place dollops of the cooled blackberry sauce over the cheesecake layer. Use a knife to swirl only the cheesecake layer and blackberry sauce together; taking care not to go into the brownie layer. Swirl as many or as few times as needed to get the desired marbled effect.</p>
-                </div>
-                <div>
-                    <h3>Step 7</h3>
-                    <p itemprop="step">Bake in the preheated oven until the center of the bars are puffed and mostly set, 55 to 60 minutes. The edges will bake up taller than the center, and will begin to turn golden brown when they are done. Allow bars to cool to room temperature in the pan, then refrigerate for at least 4 hours to overnight. Cut into 16 bars before serving.</p>
-                </div>
-            </div>
-        </section>
+            </section>
+            <section>
+                <h1 class="title-1">Add your recipy!</h1>
+                <form action="" class="add-recipe-form">
+                    <label for="email">Enter your Email: </label>
+                    <input type="email" class="input-box" required placeholder="asd@gmail.com">
+                    <label for="recipe-name">Recipy Title: </label>
+                    <input type="text" class="input-box" name="recipe-name" id="recipe-name" placeholder="e.g. Banana Bread" required>
+                    <label for="ingredients" >Ingredients: </label>
+                    <textarea name="ingredients" class="input-box" id="ingredients" cols="60" rows="10" placeholder="e.g. 2 cups all-purpose flour" required></textarea>
+                    <label for="steps">Steps: </label>
+                    <textarea name="steps" class="input-box" cols="60" rows="10" placeholder="eg. Step 1: Mix all your dry ingredients together" required></textarea>
+                    <button type="reset" class="reset-btn">Reset</button>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </section>
+        </div>
     </main>
     <footer></footer>
 </body>
